@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #f6f6f6;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.body h1 {
+    font-size: 45px;
+}
+
+.body h2 {
+    font-size: 40px;
+}
+
+.body h3 {
+    font-size: 20px;
+}
+
+.hero-content p {
+    max-width: 600px;
+}
+
+.nav-header {
+    border-radius: 100px;
+    background-color: #fff;
+}
+
+.nav-header a {
+    font-size: 12px;
+    color: #000 !important;
+}
+
+.button {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    transition: 0.5s all;
+    padding: 6px 30px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid #fff;
+}
+
+
+.navbar-brand img {
+    max-width: 120px;
+}
+
+.button-border {
+    transition: 0.5s all;
+    padding: 6px 30px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.body p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+.button-border:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.py-100 {
+    padding: 100px 20px;
+}
+
+img {
+    width: 100%;
+}
+header{
+    position: absolute;
+    width: 100%;
+
+}
+.hero-content li img {
+    width: 15px;
+}
+.hero{
+    background: #2A7B9B;
+    
+background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+.content-box {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+footer img{
+max-width: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-header {
+    border-radius:0px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.navbar-toggler{
+   filter: invert(200);
+}
+}
